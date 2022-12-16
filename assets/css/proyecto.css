@@ -1,0 +1,54 @@
+.proyectos__titulo{
+    margin: 3rem 0 1rem ;
+    font-size: 2rem;
+    text-shadow:  -3px -3px #bbcad2, 3px 3px #bbcad2; 
+}
+
+
+.proyectos__proyectos{
+    margin: 30px 10px;
+    display: flex;
+}
+
+.proyectos__proyectos:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.proyectos__cuerpo{
+    width: 50%;
+    margin: 0 15px;
+}
+.proyectos__cuerpo h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.proyectos__cuerpo a{
+    color: rgb(74, 85, 97);
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Sacramento', cursive;
+    font-size: 25px;
+}
+.proyectos__cuerpo a:hover{
+    text-decoration: underline;
+    color:rgb(45, 162, 162);
+    font-weight: bold;
+}
+
+.proyectos__img{
+    width: 50%;
+}
+
+.proyectos__img img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px 1px rgba(133, 95, 172, 0.8);
+}
+.proyectos__img  img:hover{
+    box-shadow: -2px -3px 3px 1px rgba(133, 95, 172, 0.8);
+}
+
+
+
