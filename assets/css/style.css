@@ -21,6 +21,7 @@ body{
     width: 94%;
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -39,4 +40,25 @@ p{
 
 /**/
 
-/*SobreMi*/
+@media screen and (min-width: 768px) and (max-width: 920px) {
+    .contenidoPrincipal{
+        padding: 2rem 1rem;
+        margin: 2rem 1.5rem;
+    }
+    .container{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 726px) {
+    .contenidoPrincipal{
+        padding: 1rem 1rem;
+        margin: 3rem 1rem;
+    }
+    .container{
+        width: auto;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

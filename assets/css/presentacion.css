@@ -81,3 +81,25 @@
     90% { transform: rotate(-1deg); }
     100% { transform: rotate(0deg); }
 }
+
+@media screen and  (min-width: 360px) and (max-width: 767px) {
+    .cuerpo__yo{
+        width: 100%;
+        margin: 1rem;
+        align-items: center;
+    }
+    .cuerpo__img{
+        width: 100%;
+        margin: 0 1rem 1rem;
+        align-items: center;
+    }
+    .img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px)  {
+    .presentacion{
+        margin-top: 5rem;
+    }
+}

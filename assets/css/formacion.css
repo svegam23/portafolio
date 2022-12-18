@@ -57,3 +57,35 @@
 .lista{
     display: flex;
 }
+
+/***/
+@media screen and (max-width:900px){
+    .contenido-slider > img{
+        width: 250px;
+    }
+
+    .contenido-slider > div{
+        width: 50%;
+    }
+
+    .contenido-slider h2{
+        font-size: 23px;
+    }
+}
+
+
+@media screen and (max-width:720px){
+    .contenido-slider{
+       flex-direction: column-reverse;
+       height: 400px;
+    }
+    .contenido-slider h3{
+        margin: 0 ;
+    }
+    .contenido-slider > div{
+        width: 80%;
+    }
+
+}
+
+

@@ -22,8 +22,6 @@
 .skill__cont img{
     width: 80%;
     height: 50%;
-    width: 80%;
-    height: 50%;
     border-radius: 10%;
 }
 .skill__cont--html:hover{
@@ -56,6 +54,13 @@
     -webkit-box-shadow: 0px 0px 5px 5px #ec391e;
 }
 
+/**/
+@media screen and  (min-width: 360px) and (max-width: 767px) {
+    .skill .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 /*Hobbies*/
 .hobbies{
@@ -65,14 +70,16 @@
 }
 .hobbies .container{
     display: flex;
+    flex-direction: column;
 }
 .hobbies__h2{
-    margin: 0 2rem;
+    margin: 2rem 0 0 0;
     font-size: 2rem;
     text-shadow:  -3px -3px #bbcad2, 3px 3px #bbcad2; /*-3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;*/
 }
 
 .hobbies__cont{
+    margin: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,10 +88,9 @@
 
 
 .hobbies__cont div{
-    padding: 50px;
+    padding: 10px;
     width: 20%;
     height: 20%;
-    padding: 15px;
 }
 .hobbies__cont div:hover{
     animation: vibrate 0.7s;
@@ -105,6 +111,35 @@
     padding: .4rem; 
     border-radius: 0 0 15px 15px;
 }
+
+
+/**/
+@media screen and (min-width: 726) {
+    
+    .hobbies__cont div{
+        padding: 10px;
+        margin: 10px;
+        width: 30%;
+        height: 20%;
+    }
+    
+}
+@media screen and  (min-width: 360px) and (max-width: 726px) {
+    .hobbies__cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: right;
+        margin: 0 15px;
+    } 
+    .hobbies__cont div{
+        padding: 10px;
+        margin: 10px;
+        width: 90%;
+        height: 20%;
+    }
+}
+
 
 @keyframes vibrate{
     0% { transform: rotate(0deg); }

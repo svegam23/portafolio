@@ -19,6 +19,22 @@
 }
 
 
+/**/
+@media screen and  (min-width: 360px) and (max-width: 767px) {
+  .sobreMi{
+    padding: 10px;
+  }
+  .sobreMi__titulo{
+    margin: 0;
+    padding: 0;
+  }
+  .sobreMi__contenido{
+    padding: 0 10px;
+    text-align: justify;
+}
+}
+
+
 /*Animación para rotar las sombras*/
 @keyframes move {
     0% {

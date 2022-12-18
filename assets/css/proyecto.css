@@ -50,5 +50,25 @@
     box-shadow: -2px -3px 3px 1px rgba(133, 95, 172, 0.8);
 }
 
-
+/**/
+@media screen and  (min-width: 360px) and (max-width: 767px) {
+    .proyectos__proyectos{
+        margin: 0 10px;
+        display: flex;
+        flex-direction: column;
+    }  
+    .proyectos__proyectos:nth-child(2){
+        flex-direction: column;
+    }
+    .proyectos__cuerpo{
+        width: 100%;
+        margin: 0 15px 10px;
+    }
+    .proyectos__cuerpo h3{
+        text-align: center;
+    }
+    .proyectos__img{
+        width: 100%;
+    }
+}
 
