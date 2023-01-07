@@ -13,6 +13,9 @@
 .proyectos__proyectos:nth-child(2){
     flex-direction: row-reverse;
 }
+.proyectos__proyectos:nth-child(4){
+    flex-direction: row-reverse;
+}
 
 .proyectos__cuerpo{
     width: 50%;
@@ -59,6 +62,9 @@
     }  
     .proyectos__proyectos:nth-child(2){
         flex-direction: column;
+    }
+    .proyectos__proyectos:nth-child(4){
+        flex-direction: row-reverse;
     }
     .proyectos__cuerpo{
         width: 100%;
